@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BFF3AB93144E193A5A0017 /* Pods_GPStwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6922D9478E77095CF411D6F /* Pods_GPStwo.framework */; };
+		B40B6441216B6B0800831B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B6440216B6B0800831B6B /* AppDelegate.swift */; };
+		B40B6443216B6B0800831B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B6442216B6B0800831B6B /* ViewController.swift */; };
+		B40B6446216B6B0800831B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40B6444216B6B0800831B6B /* Main.storyboard */; };
+		B40B6449216B6B0800831B6B /* GPStwo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B40B6447216B6B0800831B6B /* GPStwo.xcdatamodeld */; };
+		B40B644B216B6B0B00831B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B644A216B6B0B00831B6B /* Assets.xcassets */; };
+		B40B644E216B6B0B00831B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40B644C216B6B0B00831B6B /* LaunchScreen.storyboard */; };
+		B40B6456216B6B5B00831B6B /* gpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B6455216B6B5B00831B6B /* gpsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EF365EEF74642A7643832C1 /* Pods-GPStwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPStwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPStwo/Pods-GPStwo.release.xcconfig"; sourceTree = "<group>"; };
+		7D1EE1A2A6A54C30CA14A9F0 /* Pods-GPStwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPStwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPStwo/Pods-GPStwo.debug.xcconfig"; sourceTree = "<group>"; };
+		B40B643D216B6B0800831B6B /* GPStwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPStwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40B6440216B6B0800831B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B40B6442216B6B0800831B6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B40B6445216B6B0800831B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B40B6448216B6B0800831B6B /* GPStwo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPStwo.xcdatamodel; sourceTree = "<group>"; };
+		B40B644A216B6B0B00831B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B40B644D216B6B0B00831B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B40B644F216B6B0B00831B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40B6455216B6B5B00831B6B /* gpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gpsViewController.swift; sourceTree = "<group>"; };
+		E6922D9478E77095CF411D6F /* Pods_GPStwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPStwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B40B643A216B6B0800831B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BFF3AB93144E193A5A0017 /* Pods_GPStwo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5502743312112EC948E7BD2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6922D9478E77095CF411D6F /* Pods_GPStwo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8B958F5DEA21DFFC70118C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D1EE1A2A6A54C30CA14A9F0 /* Pods-GPStwo.debug.xcconfig */,
+				5EF365EEF74642A7643832C1 /* Pods-GPStwo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B40B6434216B6B0800831B6B = {
+			isa = PBXGroup;
+			children = (
+				B40B643F216B6B0800831B6B /* GPStwo */,
+				B40B643E216B6B0800831B6B /* Products */,
+				A8B958F5DEA21DFFC70118C1 /* Pods */,
+				5502743312112EC948E7BD2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B40B643E216B6B0800831B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40B643D216B6B0800831B6B /* GPStwo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40B643F216B6B0800831B6B /* GPStwo */ = {
+			isa = PBXGroup;
+			children = (
+				B40B6440216B6B0800831B6B /* AppDelegate.swift */,
+				B40B6442216B6B0800831B6B /* ViewController.swift */,
+				B40B6455216B6B5B00831B6B /* gpsViewController.swift */,
+				B40B6444216B6B0800831B6B /* Main.storyboard */,
+				B40B644A216B6B0B00831B6B /* Assets.xcassets */,
+				B40B644C216B6B0B00831B6B /* LaunchScreen.storyboard */,
+				B40B644F216B6B0B00831B6B /* Info.plist */,
+				B40B6447216B6B0800831B6B /* GPStwo.xcdatamodeld */,
+			);
+			path = GPStwo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B40B643C216B6B0800831B6B /* GPStwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40B6452216B6B0B00831B6B /* Build configuration list for PBXNativeTarget "GPStwo" */;
+			buildPhases = (
+				ED8814354E358E59310F66FD /* [CP] Check Pods Manifest.lock */,
+				B40B6439216B6B0800831B6B /* Sources */,
+				B40B643A216B6B0800831B6B /* Frameworks */,
+				B40B643B216B6B0800831B6B /* Resources */,
+				93DBFEE93507098DB251C4E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPStwo;
+			productName = GPStwo;
+			productReference = B40B643D216B6B0800831B6B /* GPStwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40B6435216B6B0800831B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = dbs;
+				TargetAttributes = {
+					B40B643C216B6B0800831B6B = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B40B6438216B6B0800831B6B /* Build configuration list for PBXProject "GPStwo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40B6434216B6B0800831B6B;
+			productRefGroup = B40B643E216B6B0800831B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40B643C216B6B0800831B6B /* GPStwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40B643B216B6B0800831B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40B644E216B6B0B00831B6B /* LaunchScreen.storyboard in Resources */,
+				B40B644B216B6B0B00831B6B /* Assets.xcassets in Resources */,
+				B40B6446216B6B0800831B6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93DBFEE93507098DB251C4E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPStwo/Pods-GPStwo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPStwo/Pods-GPStwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8814354E358E59310F66FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPStwo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40B6439216B6B0800831B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40B6443216B6B0800831B6B /* ViewController.swift in Sources */,
+				B40B6441216B6B0800831B6B /* AppDelegate.swift in Sources */,
+				B40B6449216B6B0800831B6B /* GPStwo.xcdatamodeld in Sources */,
+				B40B6456216B6B5B00831B6B /* gpsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B40B6444216B6B0800831B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B40B6445216B6B0800831B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B40B644C216B6B0B00831B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B40B644D216B6B0B00831B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B40B6450216B6B0B00831B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B40B6451216B6B0B00831B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B40B6453216B6B0B00831B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1EE1A2A6A54C30CA14A9F0 /* Pods-GPStwo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUWQM7RX8M;
+				INFOPLIST_FILE = GPStwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frk.DBS.GPStwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B40B6454216B6B0B00831B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF365EEF74642A7643832C1 /* Pods-GPStwo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUWQM7RX8M;
+				INFOPLIST_FILE = GPStwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.frk.DBS.GPStwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B40B6438216B6B0800831B6B /* Build configuration list for PBXProject "GPStwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40B6450216B6B0B00831B6B /* Debug */,
+				B40B6451216B6B0B00831B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40B6452216B6B0B00831B6B /* Build configuration list for PBXNativeTarget "GPStwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40B6453216B6B0B00831B6B /* Debug */,
+				B40B6454216B6B0B00831B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B40B6447216B6B0800831B6B /* GPStwo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B40B6448216B6B0800831B6B /* GPStwo.xcdatamodel */,
+			);
+			currentVersion = B40B6448216B6B0800831B6B /* GPStwo.xcdatamodel */;
+			path = GPStwo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B40B6435216B6B0800831B6B /* Project object */;
+}
